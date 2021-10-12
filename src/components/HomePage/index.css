@@ -1,0 +1,75 @@
+.navcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 68px;
+  width: 1263.33px;
+  background-color: #2b2d42;
+
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 18.4px;
+  text-decoration: none solid rgb(188, 190, 220);
+  word-spacing: 0px;
+  transform: none;
+  transition: background 0.8s ease 0s, top 0.5s ease 0s;
+
+  box-sizing: border-box;
+  /* position: fixed; */
+  top: 0px;
+  bottom: 580px;
+  right: 0px;
+  left: 0px;
+
+  z-index: 999;
+  margin-bottom: 20px;
+}
+.heading {
+  font-family: Overpass, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.14px;
+  line-height: 16.1px;
+
+  text-transform: capitalize;
+  word-spacing: 0px;
+  font-style: oblique;
+}
+.homecontainer {
+  position: relative;
+}
+.carddetails {
+  height: 2839.23px;
+  width: 1140px;
+  margin: 0 62px 0 62px;
+  padding: 0 30px 0 30px;
+  max-width: 1140px;
+  min-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.input-field {
+  outline: none;
+  border-color: red;
+  height: 30px;
+  padding: 20px;
+}
+.logout-btn {
+  width: 80px;
+  height: 20px;
+  letter-spacing: 1px;
+  color: dodgerblue;
+
+  margin-top: 23px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
